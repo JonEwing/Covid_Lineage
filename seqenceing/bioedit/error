@@ -1,0 +1,35 @@
+ERROR: Unable to read the number of species in data set
+The input file is incorrect (perhaps it was not saved text only).
+
+
+
+
+Neighbor-Joining/UPGMA method version 3.6a2.1
+
+Settings for this run:
+  N       Neighbor-joining or UPGMA tree?  Neighbor-joining
+  O                        Outgroup root?  No, use as outgroup species  1
+  L         Lower-triangular data matrix?  No
+  R         Upper-triangular data matrix?  No
+  S                        Subreplicates?  No
+  J     Randomize input order of species?  No. Use input order
+  M           Analyze multiple data sets?  No
+  0   Terminal type (IBM PC, ANSI, none)?  (none)
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4       Write out trees onto tree file?  Yes
+
+
+  Y to accept these or type the letter for one to change
+ERROR: a function asked for an inappropriate amount of memory:  0 bytes
+       This can mean one of two things:
+       1.  The input file is incorrect (perhaps it was not saved as Text Only),
+       2.  There is a bug in the program.
+       Please check your input file carefully.
+       If it seems to be a bug, please mail joe@genetics.washington.edu
+       with the name of the program, your computer system type,
+       a full description of the problem, and with the input data file.
+       (which should be in the body of the message, not as an Attachment).
+Hit Enter or Return to close program.
+  You may have to hit Enter or Return twice.
