@@ -1,0 +1,9 @@
+Bad sequences have large ammounts of N or ~
+Shrink to fit the exsact referance sequence
+
+To be able to define a threashold for acceptibale quality
+look at all sequences avalable.
+one at a time line up each to reference.
+for a sequence to be accptibale, what is highet 5% of similartiy?
+
+cutoff polyA tail

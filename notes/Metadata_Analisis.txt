@@ -1,0 +1,26 @@
+Symptom
+Coronavirus type
+Location
+genome coverage
+Patient species
+Year
+
+
+Patient ID?
+FL-BPHL-0792
+2850_S15
+
+
+16490 Records
+
+Line 1724151: >6XEZ_P |Chain P, Product RNA
+Line 1724153: >6XEZ_T |Chain T, Template RNA
+Line 1724155: >6XQB_E |Chain E, SARS-CoV-2 RdRp/RNA complex
+Line 1724157: >6XQB_F |Chain F, SARS-CoV-2 RdRp/RNA complex
+
+
+Major Formats (Descending in count)
+
+Line 3611265: >MT740381.1 |Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/BGD/BCSIR_NILMRC_145/2020, complete genome
+Line 3608766: >LR824567.1 |Severe acute respiratory syndrome coronavirus 2 isolate 140089 genome assembly, chromosome: 1
+Line 4542838: >6X2G_E |Chain E, SARS-CoV-2 RdRp/RNA complex

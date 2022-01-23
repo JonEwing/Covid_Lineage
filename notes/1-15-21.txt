@@ -1,0 +1,4 @@
+N -> Y potiton 501 on spike
+N501Y
+
+Look for mutation at X
