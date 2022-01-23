@@ -1,0 +1,672 @@
+DEBUG 04-12 14:53:30,642 (PGDSpiderGUI.java:<init>:121)  -starting PGD Spider ...
+WARN  04-12 14:53:30,644 (PGDSpiderConfig.java:loadConfig:75)  -PGDSpider configuration file not found! Loading default configuration.
+DEBUG 04-12 14:53:30,950 (PGDSpiderGUI.java:initializeGUI:220)  -init actions
+DEBUG 04-12 14:53:30,950 (PGDSpiderGUI.java:initializeGUI:233)  -init menu bar
+DEBUG 04-12 14:53:30,963 (PGDSpiderGUI.java:initializeGUI:244)  -init input panel
+DEBUG 04-12 14:53:30,965 (ParserFactory.java:getParserInstance:161)  -New PGDParser instance
+DEBUG 04-12 14:53:30,976 (ParserFactory.java:getParserInstance:53)  -New ArlequinParser instance
+DEBUG 04-12 14:53:30,981 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAMOVA is missing!
+DEBUG 04-12 14:53:30,982 (ParserFactory.java:getParserInstance:57)  -New BamParser instance
+DEBUG 04-12 14:53:30,985 (ParserFactory.java:getParserInstance:61)  -New BapsParser instance
+DEBUG 04-12 14:53:30,988 (ParserFactory.java:getParserInstance:65)  -New BatwingParser instance
+DEBUG 04-12 14:53:30,989 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAYENV is missing!
+DEBUG 04-12 14:53:30,989 (ParserFactory.java:getParserInstance:69)  -New BcfParser instance
+DEBUG 04-12 14:53:30,991 (ParserFactory.java:getParserInstance:73)  -New ConvertParser instance
+DEBUG 04-12 14:53:30,992 (ParserFactory.java:getParserInstance:77)  -New EigensoftParser instance
+DEBUG 04-12 14:53:30,994 (ParserFactory.java:getParserInstance:181)  -New ExtendedFastaParser instance
+DEBUG 04-12 14:53:30,996 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 14:53:30,996 (ParserFactory.java:getParserInstance:85)  -New FastqParser instance
+DEBUG 04-12 14:53:30,997 (ParserFactory.java:getParserInstance:185)  -Parser for type: FDist2 (datacal) is missing!
+DEBUG 04-12 14:53:30,997 (ParserFactory.java:getParserInstance:89)  -New FstatParser instance
+DEBUG 04-12 14:53:30,999 (ParserFactory.java:getParserInstance:93)  -New GdaParser instance
+DEBUG 04-12 14:53:31,000 (ParserFactory.java:getParserInstance:97)  -New GenelandParser instance
+DEBUG 04-12 14:53:31,002 (ParserFactory.java:getParserInstance:101)  -New GenepopParser instance
+DEBUG 04-12 14:53:31,003 (ParserFactory.java:getParserInstance:105)  -New GenetixParser instance
+DEBUG 04-12 14:53:31,004 (ParserFactory.java:getParserInstance:185)  -Parser for type: GESTE / BayeScan is missing!
+DEBUG 04-12 14:53:31,004 (ParserFactory.java:getParserInstance:109)  -New HgdpParser instance
+DEBUG 04-12 14:53:31,005 (ParserFactory.java:getParserInstance:113)  -New HgdpCephParser instance
+DEBUG 04-12 14:53:31,006 (ParserFactory.java:getParserInstance:117)  -New Ima2Parser instance
+DEBUG 04-12 14:53:31,008 (ParserFactory.java:getParserInstance:121)  -New ImmancParser instance
+DEBUG 04-12 14:53:31,009 (ParserFactory.java:getParserInstance:125)  -New ImParser instance
+DEBUG 04-12 14:53:31,010 (ParserFactory.java:getParserInstance:185)  -Parser for type: KML is missing!
+DEBUG 04-12 14:53:31,011 (ParserFactory.java:getParserInstance:129)  -New MafParser instance
+DEBUG 04-12 14:53:31,011 (ParserFactory.java:getParserInstance:133)  -New MegaParser instance
+DEBUG 04-12 14:53:31,015 (ParserFactory.java:getParserInstance:137)  -New MigrateParser instance
+DEBUG 04-12 14:53:31,017 (ParserFactory.java:getParserInstance:141)  -New MsaParser instance
+DEBUG 04-12 14:53:31,018 (ParserFactory.java:getParserInstance:185)  -Parser for type: MSVar is missing!
+DEBUG 04-12 14:53:31,018 (ParserFactory.java:getParserInstance:145)  -New NewHybridsParser instance
+DEBUG 04-12 14:53:31,020 (ParserFactory.java:getParserInstance:149)  -New NexusParser instance
+DEBUG 04-12 14:53:31,023 (ParserFactory.java:getParserInstance:153)  -New OneSampParser instance
+DEBUG 04-12 14:53:31,024 (ParserFactory.java:getParserInstance:157)  -New PedParser instance
+DEBUG 04-12 14:53:31,026 (ParserFactory.java:getParserInstance:165)  -New PhylipParser instance
+DEBUG 04-12 14:53:31,027 (ParserFactory.java:getParserInstance:169)  -New SamParser instance
+DEBUG 04-12 14:53:31,029 (ParserFactory.java:getParserInstance:185)  -Parser for type: Structurama is missing!
+DEBUG 04-12 14:53:31,029 (ParserFactory.java:getParserInstance:173)  -New StructureParser instance
+DEBUG 04-12 14:53:31,031 (ParserFactory.java:getParserInstance:177)  -New VcfParser instance
+DEBUG 04-12 14:53:31,040 (PGDSpiderGUI.java:initializeGUI:247)  -init output panel
+DEBUG 04-12 14:53:31,059 (WriterFactory.java:getWriterInstance:171)  -Writer for type: CONVERT is missing!
+DEBUG 04-12 14:53:31,073 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP is missing!
+DEBUG 04-12 14:53:31,073 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP_CEPH (Arlequin) is missing!
+DEBUG 04-12 14:53:31,080 (WriterFactory.java:getWriterInstance:171)  -Writer for type: MAF is missing!
+DEBUG 04-12 14:53:31,103 (PGDSpiderGUI.java:initializeGUI:250)  -init spid panel
+DEBUG 04-12 14:53:31,104 (PGDSpiderGUI.java:initializeGUI:253)  -init log panel
+DEBUG 04-12 14:53:31,105 (PGDSpiderGUI.java:initializeGUI:256)  -init button panel
+DEBUG 04-12 14:53:33,068 (PGDSpiderGUI.java:<init>:187)  -PGD Spider up and running...
+INFO  04-12 14:53:47,999 (ViewInpufileAction.java:actionPerformed:35)  -Opening input file.
+DEBUG 04-12 14:53:48,035 (FileViewer.java:showFile:98)  -Read file into buffer
+DEBUG 04-12 14:53:48,039 (FileViewer.java:showFile:101)  -Read successfully 3074041 bytes.
+DEBUG 04-12 14:53:48,053 (FileViewer.java:showFile:103)  -Created text buffer
+DEBUG 04-12 14:53:49,659 (FileViewer.java:windowClosing:86)  -Closing file viewer.
+DEBUG 04-12 14:53:49,685 (FileViewer.java:windowClosing:88)  -Calling gc to free memory.
+DEBUG 04-12 14:54:12,097 (SelectOutputFileAction.java:actionPerformed:52)  -Added file extension: .nex
+INFO  04-12 14:54:19,910 (ConvertAction.java:actionPerformed:65)  -Convert...
+DEBUG 04-12 14:54:19,920 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 14:54:19,920 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 14:54:19,926 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 14:54:19,926 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 14:54:19,927 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 14:54:19,927 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 14:54:33,453 (SaveApplySpidFileAction.java:actionPerformed:88)  -Added file extension: .spid
+DEBUG 04-12 14:54:33,458 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+INFO  04-12 14:54:33,459 (SaveApplySpidFileAction.java:actionPerformed:123)  -Saved SPID file as: file.spid
+INFO  04-12 14:54:33,464 (PGDSpiderGUI.java:setSpidFile:661)  -loading SPID file: file.spid
+DEBUG 04-12 14:54:33,465 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+INFO  04-12 14:54:33,475 (ConvertAction.java:actionPerformed:87)  -convert FASTA:100randomout.fasta to NEXUS:test.nex
+DEBUG 04-12 14:54:33,483 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+WARN  04-12 14:54:33,495 (FastaParser.java:parse:184)  -PGDSpider expects aligned FASTA data!
+WARN  04-12 14:54:33,677 (NexusWriter.java:write:320)  -The name of a population is missing (no name attribute). It is now recoded as "pop_1"
+INFO  04-12 14:54:33,773 (ConverterThread.java:run:87)  -translation completed
+INFO  04-12 14:54:43,794 (ConvertAction.java:actionPerformed:65)  -Convert...
+INFO  04-12 14:54:46,953 (ConvertAction.java:actionPerformed:71)  -Don't overwrite existing output file. Conversion canceled.
+INFO  04-12 14:55:20,647 (ConvertAction.java:actionPerformed:65)  -Convert...
+DEBUG 04-12 14:55:20,650 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+INFO  04-12 14:55:20,651 (ConvertAction.java:actionPerformed:87)  -convert FASTA:100randomout.fasta to NEXUS:test.nex
+DEBUG 04-12 14:55:20,652 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+WARN  04-12 14:55:20,656 (FastaParser.java:parse:184)  -PGDSpider expects aligned FASTA data!
+WARN  04-12 14:55:20,770 (NexusWriter.java:write:320)  -The name of a population is missing (no name attribute). It is now recoded as "pop_1"
+INFO  04-12 14:55:20,833 (ConverterThread.java:run:87)  -translation completed
+DEBUG 04-12 14:59:16,996 (PGDSpiderGUI.java:<init>:121)  -starting PGD Spider ...
+WARN  04-12 14:59:16,997 (PGDSpiderConfig.java:loadConfig:75)  -PGDSpider configuration file not found! Loading default configuration.
+DEBUG 04-12 14:59:17,304 (PGDSpiderGUI.java:initializeGUI:220)  -init actions
+DEBUG 04-12 14:59:17,304 (PGDSpiderGUI.java:initializeGUI:233)  -init menu bar
+DEBUG 04-12 14:59:17,318 (PGDSpiderGUI.java:initializeGUI:244)  -init input panel
+DEBUG 04-12 14:59:17,319 (ParserFactory.java:getParserInstance:161)  -New PGDParser instance
+DEBUG 04-12 14:59:17,330 (ParserFactory.java:getParserInstance:53)  -New ArlequinParser instance
+DEBUG 04-12 14:59:17,336 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAMOVA is missing!
+DEBUG 04-12 14:59:17,336 (ParserFactory.java:getParserInstance:57)  -New BamParser instance
+DEBUG 04-12 14:59:17,339 (ParserFactory.java:getParserInstance:61)  -New BapsParser instance
+DEBUG 04-12 14:59:17,342 (ParserFactory.java:getParserInstance:65)  -New BatwingParser instance
+DEBUG 04-12 14:59:17,343 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAYENV is missing!
+DEBUG 04-12 14:59:17,343 (ParserFactory.java:getParserInstance:69)  -New BcfParser instance
+DEBUG 04-12 14:59:17,345 (ParserFactory.java:getParserInstance:73)  -New ConvertParser instance
+DEBUG 04-12 14:59:17,347 (ParserFactory.java:getParserInstance:77)  -New EigensoftParser instance
+DEBUG 04-12 14:59:17,348 (ParserFactory.java:getParserInstance:181)  -New ExtendedFastaParser instance
+DEBUG 04-12 14:59:17,350 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 14:59:17,351 (ParserFactory.java:getParserInstance:85)  -New FastqParser instance
+DEBUG 04-12 14:59:17,351 (ParserFactory.java:getParserInstance:185)  -Parser for type: FDist2 (datacal) is missing!
+DEBUG 04-12 14:59:17,351 (ParserFactory.java:getParserInstance:89)  -New FstatParser instance
+DEBUG 04-12 14:59:17,353 (ParserFactory.java:getParserInstance:93)  -New GdaParser instance
+DEBUG 04-12 14:59:17,354 (ParserFactory.java:getParserInstance:97)  -New GenelandParser instance
+DEBUG 04-12 14:59:17,356 (ParserFactory.java:getParserInstance:101)  -New GenepopParser instance
+DEBUG 04-12 14:59:17,357 (ParserFactory.java:getParserInstance:105)  -New GenetixParser instance
+DEBUG 04-12 14:59:17,358 (ParserFactory.java:getParserInstance:185)  -Parser for type: GESTE / BayeScan is missing!
+DEBUG 04-12 14:59:17,358 (ParserFactory.java:getParserInstance:109)  -New HgdpParser instance
+DEBUG 04-12 14:59:17,362 (ParserFactory.java:getParserInstance:113)  -New HgdpCephParser instance
+DEBUG 04-12 14:59:17,363 (ParserFactory.java:getParserInstance:117)  -New Ima2Parser instance
+DEBUG 04-12 14:59:17,364 (ParserFactory.java:getParserInstance:121)  -New ImmancParser instance
+DEBUG 04-12 14:59:17,366 (ParserFactory.java:getParserInstance:125)  -New ImParser instance
+DEBUG 04-12 14:59:17,367 (ParserFactory.java:getParserInstance:185)  -Parser for type: KML is missing!
+DEBUG 04-12 14:59:17,367 (ParserFactory.java:getParserInstance:129)  -New MafParser instance
+DEBUG 04-12 14:59:17,368 (ParserFactory.java:getParserInstance:133)  -New MegaParser instance
+DEBUG 04-12 14:59:17,369 (ParserFactory.java:getParserInstance:137)  -New MigrateParser instance
+DEBUG 04-12 14:59:17,371 (ParserFactory.java:getParserInstance:141)  -New MsaParser instance
+DEBUG 04-12 14:59:17,372 (ParserFactory.java:getParserInstance:185)  -Parser for type: MSVar is missing!
+DEBUG 04-12 14:59:17,372 (ParserFactory.java:getParserInstance:145)  -New NewHybridsParser instance
+DEBUG 04-12 14:59:17,374 (ParserFactory.java:getParserInstance:149)  -New NexusParser instance
+DEBUG 04-12 14:59:17,377 (ParserFactory.java:getParserInstance:153)  -New OneSampParser instance
+DEBUG 04-12 14:59:17,378 (ParserFactory.java:getParserInstance:157)  -New PedParser instance
+DEBUG 04-12 14:59:17,379 (ParserFactory.java:getParserInstance:165)  -New PhylipParser instance
+DEBUG 04-12 14:59:17,380 (ParserFactory.java:getParserInstance:169)  -New SamParser instance
+DEBUG 04-12 14:59:17,382 (ParserFactory.java:getParserInstance:185)  -Parser for type: Structurama is missing!
+DEBUG 04-12 14:59:17,382 (ParserFactory.java:getParserInstance:173)  -New StructureParser instance
+DEBUG 04-12 14:59:17,384 (ParserFactory.java:getParserInstance:177)  -New VcfParser instance
+DEBUG 04-12 14:59:17,391 (PGDSpiderGUI.java:initializeGUI:247)  -init output panel
+DEBUG 04-12 14:59:17,412 (WriterFactory.java:getWriterInstance:171)  -Writer for type: CONVERT is missing!
+DEBUG 04-12 14:59:17,427 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP is missing!
+DEBUG 04-12 14:59:17,427 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP_CEPH (Arlequin) is missing!
+DEBUG 04-12 14:59:17,434 (WriterFactory.java:getWriterInstance:171)  -Writer for type: MAF is missing!
+DEBUG 04-12 14:59:17,458 (PGDSpiderGUI.java:initializeGUI:250)  -init spid panel
+DEBUG 04-12 14:59:17,460 (PGDSpiderGUI.java:initializeGUI:253)  -init log panel
+DEBUG 04-12 14:59:17,461 (PGDSpiderGUI.java:initializeGUI:256)  -init button panel
+DEBUG 04-12 14:59:18,622 (PGDSpiderGUI.java:closePGDSpider:526)  -Exiting PGDSpider
+DEBUG 04-12 14:59:18,622 (PGDSpiderGUI.java:closePGDSpider:527)  -Save window size
+DEBUG 04-12 14:59:18,687 (PGDSpiderGUI.java:closePGDSpider:531)  -Shutdown java vm ...
+INFO  04-12 15:00:08,443 (ConvertAction.java:actionPerformed:65)  -Convert...
+INFO  04-12 15:00:10,341 (ConvertAction.java:actionPerformed:75)  -Overwrite existing output file
+DEBUG 04-12 15:00:10,341 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:00:10,342 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:00:10,342 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:00:10,343 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:00:10,343 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:00:10,343 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+INFO  04-12 15:00:12,421 (ConvertAction.java:actionPerformed:87)  -convert FASTA:100randomout.fasta to PHYLIP (RAxML):test.nex
+DEBUG 04-12 15:00:12,423 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+WARN  04-12 15:00:12,426 (FastaParser.java:parse:184)  -PGDSpider expects aligned FASTA data!
+WARN  04-12 15:00:12,569 (PhylipWriter.java:write:416)  -The name of a population is missing (no name attribute). It is now recoded as "pop_1"
+WARN  04-12 15:00:12,569 (PhylipWriter.java:write:473)  -Individual label Reference Sequences is truncated to 10 characters.
+WARN  04-12 15:00:12,572 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_483233 is truncated to 10 characters.
+WARN  04-12 15:00:12,574 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_482349 is truncated to 10 characters.
+WARN  04-12 15:00:12,575 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_434189 is truncated to 10 characters.
+WARN  04-12 15:00:12,577 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_444615 is truncated to 10 characters.
+WARN  04-12 15:00:12,578 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_514636 is truncated to 10 characters.
+WARN  04-12 15:00:12,580 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_485206 is truncated to 10 characters.
+WARN  04-12 15:00:12,582 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_434592 is truncated to 10 characters.
+WARN  04-12 15:00:12,584 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_450553 is truncated to 10 characters.
+WARN  04-12 15:00:12,585 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_530214 is truncated to 10 characters.
+WARN  04-12 15:00:12,588 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_492181 is truncated to 10 characters.
+WARN  04-12 15:00:12,590 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_491019 is truncated to 10 characters.
+WARN  04-12 15:00:12,592 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_421310 is truncated to 10 characters.
+WARN  04-12 15:00:12,594 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_430245 is truncated to 10 characters.
+WARN  04-12 15:00:12,596 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_527628 is truncated to 10 characters.
+WARN  04-12 15:00:12,598 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_435002 is truncated to 10 characters.
+WARN  04-12 15:00:12,602 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_449853 is truncated to 10 characters.
+WARN  04-12 15:00:12,604 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_458293 is truncated to 10 characters.
+WARN  04-12 15:00:12,606 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_526573 is truncated to 10 characters.
+WARN  04-12 15:00:12,608 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_457769 is truncated to 10 characters.
+WARN  04-12 15:00:12,611 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_419557 is truncated to 10 characters.
+WARN  04-12 15:00:12,614 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_434334 is truncated to 10 characters.
+WARN  04-12 15:00:12,617 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_528672 is truncated to 10 characters.
+WARN  04-12 15:00:12,620 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_516302 is truncated to 10 characters.
+WARN  04-12 15:00:12,622 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_434906 is truncated to 10 characters.
+WARN  04-12 15:00:12,625 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_468594 is truncated to 10 characters.
+WARN  04-12 15:00:12,628 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_477671 is truncated to 10 characters.
+WARN  04-12 15:00:12,632 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_475575 is truncated to 10 characters.
+WARN  04-12 15:00:12,636 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_526585 is truncated to 10 characters.
+WARN  04-12 15:00:12,639 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_487266 is truncated to 10 characters.
+WARN  04-12 15:00:12,642 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_482302 is truncated to 10 characters.
+WARN  04-12 15:00:12,648 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_449928 is truncated to 10 characters.
+WARN  04-12 15:00:12,651 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_522939 is truncated to 10 characters.
+WARN  04-12 15:00:12,654 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_527481 is truncated to 10 characters.
+WARN  04-12 15:00:12,657 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_454379 is truncated to 10 characters.
+WARN  04-12 15:00:12,661 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_444635 is truncated to 10 characters.
+WARN  04-12 15:00:12,665 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_524880 is truncated to 10 characters.
+WARN  04-12 15:00:12,669 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_536595 is truncated to 10 characters.
+WARN  04-12 15:00:12,671 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_497626 is truncated to 10 characters.
+WARN  04-12 15:00:12,674 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_436655 is truncated to 10 characters.
+WARN  04-12 15:00:12,678 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_496148 is truncated to 10 characters.
+WARN  04-12 15:00:12,682 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_437409 is truncated to 10 characters.
+WARN  04-12 15:00:12,685 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_451418 is truncated to 10 characters.
+WARN  04-12 15:00:12,688 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_485316 is truncated to 10 characters.
+WARN  04-12 15:00:12,690 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_524852 is truncated to 10 characters.
+WARN  04-12 15:00:12,698 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_417514 is truncated to 10 characters.
+WARN  04-12 15:00:12,702 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_417937 is truncated to 10 characters.
+WARN  04-12 15:00:12,705 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_417341 is truncated to 10 characters.
+WARN  04-12 15:00:12,708 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_497382 is truncated to 10 characters.
+WARN  04-12 15:00:12,711 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_509718 is truncated to 10 characters.
+WARN  04-12 15:00:12,715 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_426520 is truncated to 10 characters.
+WARN  04-12 15:00:12,719 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_535698 is truncated to 10 characters.
+WARN  04-12 15:00:12,722 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_428283 is truncated to 10 characters.
+WARN  04-12 15:00:12,726 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_489911 is truncated to 10 characters.
+WARN  04-12 15:00:12,729 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_460331 is truncated to 10 characters.
+WARN  04-12 15:00:12,733 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_423026 is truncated to 10 characters.
+WARN  04-12 15:00:12,738 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_471246 is truncated to 10 characters.
+WARN  04-12 15:00:12,741 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_430237 is truncated to 10 characters.
+WARN  04-12 15:00:12,749 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_535309 is truncated to 10 characters.
+WARN  04-12 15:00:12,757 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_513875 is truncated to 10 characters.
+WARN  04-12 15:00:12,767 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_526567 is truncated to 10 characters.
+WARN  04-12 15:00:12,775 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_507969 is truncated to 10 characters.
+WARN  04-12 15:00:12,784 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_495803 is truncated to 10 characters.
+WARN  04-12 15:00:12,792 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_486255 is truncated to 10 characters.
+WARN  04-12 15:00:12,800 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_511824 is truncated to 10 characters.
+WARN  04-12 15:00:12,808 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_508800 is truncated to 10 characters.
+WARN  04-12 15:00:12,816 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_427622 is truncated to 10 characters.
+WARN  04-12 15:00:12,824 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_468572 is truncated to 10 characters.
+WARN  04-12 15:00:12,833 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_535707 is truncated to 10 characters.
+WARN  04-12 15:00:12,840 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_483171 is truncated to 10 characters.
+WARN  04-12 15:00:12,843 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_460385 is truncated to 10 characters.
+WARN  04-12 15:00:12,848 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_454718 is truncated to 10 characters.
+WARN  04-12 15:00:12,851 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_486021 is truncated to 10 characters.
+WARN  04-12 15:00:12,856 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_437853 is truncated to 10 characters.
+WARN  04-12 15:00:12,860 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_509915 is truncated to 10 characters.
+WARN  04-12 15:00:12,864 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_526863 is truncated to 10 characters.
+WARN  04-12 15:00:12,868 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_427481 is truncated to 10 characters.
+WARN  04-12 15:00:12,873 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_428317 is truncated to 10 characters.
+WARN  04-12 15:00:12,878 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_493124 is truncated to 10 characters.
+WARN  04-12 15:00:12,882 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_424963 is truncated to 10 characters.
+WARN  04-12 15:00:12,887 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_429045 is truncated to 10 characters.
+WARN  04-12 15:00:12,892 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_524993 is truncated to 10 characters.
+WARN  04-12 15:00:12,897 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_515295 is truncated to 10 characters.
+WARN  04-12 15:00:12,906 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_468540 is truncated to 10 characters.
+WARN  04-12 15:00:12,910 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_416660 is truncated to 10 characters.
+WARN  04-12 15:00:12,915 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_430870 is truncated to 10 characters.
+WARN  04-12 15:00:12,920 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_434837 is truncated to 10 characters.
+WARN  04-12 15:00:12,927 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_495802 is truncated to 10 characters.
+WARN  04-12 15:00:12,931 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_516444 is truncated to 10 characters.
+WARN  04-12 15:00:12,936 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_494739 is truncated to 10 characters.
+WARN  04-12 15:00:12,941 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_463622 is truncated to 10 characters.
+WARN  04-12 15:00:12,947 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_452158 is truncated to 10 characters.
+WARN  04-12 15:00:12,952 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_484880 is truncated to 10 characters.
+WARN  04-12 15:00:12,957 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_463362 is truncated to 10 characters.
+WARN  04-12 15:00:12,963 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_452124 is truncated to 10 characters.
+WARN  04-12 15:00:12,976 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_508729 is truncated to 10 characters.
+WARN  04-12 15:00:12,987 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_513735 is truncated to 10 characters.
+WARN  04-12 15:00:12,996 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_513816 is truncated to 10 characters.
+WARN  04-12 15:00:13,001 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_437848 is truncated to 10 characters.
+WARN  04-12 15:00:13,006 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_494732 is truncated to 10 characters.
+WARN  04-12 15:00:13,012 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_527452 is truncated to 10 characters.
+INFO  04-12 15:00:13,029 (ConverterThread.java:run:87)  -translation completed
+DEBUG 04-12 15:00:44,324 (SelectOutputFileAction.java:actionPerformed:52)  -Added file extension: .txt
+INFO  04-12 15:00:45,324 (ConvertAction.java:actionPerformed:65)  -Convert...
+DEBUG 04-12 15:00:45,325 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+INFO  04-12 15:00:45,325 (ConvertAction.java:actionPerformed:87)  -convert FASTA:100randomout.fasta to PHYLIP (RAxML):test.txt
+DEBUG 04-12 15:00:45,325 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+WARN  04-12 15:00:45,330 (FastaParser.java:parse:184)  -PGDSpider expects aligned FASTA data!
+WARN  04-12 15:00:45,424 (PhylipWriter.java:write:416)  -The name of a population is missing (no name attribute). It is now recoded as "pop_1"
+WARN  04-12 15:00:45,425 (PhylipWriter.java:write:473)  -Individual label Reference Sequences is truncated to 10 characters.
+WARN  04-12 15:00:45,426 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_483233 is truncated to 10 characters.
+WARN  04-12 15:00:45,427 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_482349 is truncated to 10 characters.
+WARN  04-12 15:00:45,431 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_434189 is truncated to 10 characters.
+WARN  04-12 15:00:45,432 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_444615 is truncated to 10 characters.
+WARN  04-12 15:00:45,434 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_514636 is truncated to 10 characters.
+WARN  04-12 15:00:45,435 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_485206 is truncated to 10 characters.
+WARN  04-12 15:00:45,438 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_434592 is truncated to 10 characters.
+WARN  04-12 15:00:45,440 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_450553 is truncated to 10 characters.
+WARN  04-12 15:00:45,444 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_530214 is truncated to 10 characters.
+WARN  04-12 15:00:45,445 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_492181 is truncated to 10 characters.
+WARN  04-12 15:00:45,449 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_491019 is truncated to 10 characters.
+WARN  04-12 15:00:45,453 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_421310 is truncated to 10 characters.
+WARN  04-12 15:00:45,455 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_430245 is truncated to 10 characters.
+WARN  04-12 15:00:45,457 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_527628 is truncated to 10 characters.
+WARN  04-12 15:00:45,461 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_435002 is truncated to 10 characters.
+WARN  04-12 15:00:45,462 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_449853 is truncated to 10 characters.
+WARN  04-12 15:00:45,465 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_458293 is truncated to 10 characters.
+WARN  04-12 15:00:45,467 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_526573 is truncated to 10 characters.
+WARN  04-12 15:00:45,470 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_457769 is truncated to 10 characters.
+WARN  04-12 15:00:45,472 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_419557 is truncated to 10 characters.
+WARN  04-12 15:00:45,475 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_434334 is truncated to 10 characters.
+WARN  04-12 15:00:45,477 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_528672 is truncated to 10 characters.
+WARN  04-12 15:00:45,480 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_516302 is truncated to 10 characters.
+WARN  04-12 15:00:45,482 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_434906 is truncated to 10 characters.
+WARN  04-12 15:00:45,486 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_468594 is truncated to 10 characters.
+WARN  04-12 15:00:45,491 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_477671 is truncated to 10 characters.
+WARN  04-12 15:00:45,495 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_475575 is truncated to 10 characters.
+WARN  04-12 15:00:45,500 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_526585 is truncated to 10 characters.
+WARN  04-12 15:00:45,504 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_487266 is truncated to 10 characters.
+WARN  04-12 15:00:45,509 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_482302 is truncated to 10 characters.
+WARN  04-12 15:00:45,513 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_449928 is truncated to 10 characters.
+WARN  04-12 15:00:45,518 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_522939 is truncated to 10 characters.
+WARN  04-12 15:00:45,523 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_527481 is truncated to 10 characters.
+WARN  04-12 15:00:45,528 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_454379 is truncated to 10 characters.
+WARN  04-12 15:00:45,533 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_444635 is truncated to 10 characters.
+WARN  04-12 15:00:45,538 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_524880 is truncated to 10 characters.
+WARN  04-12 15:00:45,543 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_536595 is truncated to 10 characters.
+WARN  04-12 15:00:45,548 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_497626 is truncated to 10 characters.
+WARN  04-12 15:00:45,553 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_436655 is truncated to 10 characters.
+WARN  04-12 15:00:45,558 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_496148 is truncated to 10 characters.
+WARN  04-12 15:00:45,563 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_437409 is truncated to 10 characters.
+WARN  04-12 15:00:45,568 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_451418 is truncated to 10 characters.
+WARN  04-12 15:00:45,574 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_485316 is truncated to 10 characters.
+WARN  04-12 15:00:45,576 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_524852 is truncated to 10 characters.
+WARN  04-12 15:00:45,581 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_417514 is truncated to 10 characters.
+WARN  04-12 15:00:45,586 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_417937 is truncated to 10 characters.
+WARN  04-12 15:00:45,592 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_417341 is truncated to 10 characters.
+WARN  04-12 15:00:45,600 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_497382 is truncated to 10 characters.
+WARN  04-12 15:00:45,607 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_509718 is truncated to 10 characters.
+WARN  04-12 15:00:45,614 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_426520 is truncated to 10 characters.
+WARN  04-12 15:00:45,621 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_535698 is truncated to 10 characters.
+WARN  04-12 15:00:45,628 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_428283 is truncated to 10 characters.
+WARN  04-12 15:00:45,635 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_489911 is truncated to 10 characters.
+WARN  04-12 15:00:45,642 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_460331 is truncated to 10 characters.
+WARN  04-12 15:00:45,646 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_423026 is truncated to 10 characters.
+WARN  04-12 15:00:45,650 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_471246 is truncated to 10 characters.
+WARN  04-12 15:00:45,656 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_430237 is truncated to 10 characters.
+WARN  04-12 15:00:45,661 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_535309 is truncated to 10 characters.
+WARN  04-12 15:00:45,667 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_513875 is truncated to 10 characters.
+WARN  04-12 15:00:45,674 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_526567 is truncated to 10 characters.
+WARN  04-12 15:00:45,679 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_507969 is truncated to 10 characters.
+WARN  04-12 15:00:45,686 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_495803 is truncated to 10 characters.
+WARN  04-12 15:00:45,693 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_486255 is truncated to 10 characters.
+WARN  04-12 15:00:45,699 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_511824 is truncated to 10 characters.
+WARN  04-12 15:00:45,706 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_508800 is truncated to 10 characters.
+WARN  04-12 15:00:45,713 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_427622 is truncated to 10 characters.
+WARN  04-12 15:00:45,720 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_468572 is truncated to 10 characters.
+WARN  04-12 15:00:45,727 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_535707 is truncated to 10 characters.
+WARN  04-12 15:00:45,736 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_483171 is truncated to 10 characters.
+WARN  04-12 15:00:45,744 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_460385 is truncated to 10 characters.
+WARN  04-12 15:00:45,752 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_454718 is truncated to 10 characters.
+WARN  04-12 15:00:45,761 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_486021 is truncated to 10 characters.
+WARN  04-12 15:00:45,769 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_437853 is truncated to 10 characters.
+WARN  04-12 15:00:45,778 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_509915 is truncated to 10 characters.
+WARN  04-12 15:00:45,787 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_526863 is truncated to 10 characters.
+WARN  04-12 15:00:45,795 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_427481 is truncated to 10 characters.
+WARN  04-12 15:00:45,804 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_428317 is truncated to 10 characters.
+WARN  04-12 15:00:45,813 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_493124 is truncated to 10 characters.
+WARN  04-12 15:00:45,822 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_424963 is truncated to 10 characters.
+WARN  04-12 15:00:45,830 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_429045 is truncated to 10 characters.
+WARN  04-12 15:00:45,838 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_524993 is truncated to 10 characters.
+WARN  04-12 15:00:45,847 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_515295 is truncated to 10 characters.
+WARN  04-12 15:00:45,856 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_468540 is truncated to 10 characters.
+WARN  04-12 15:00:45,864 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_416660 is truncated to 10 characters.
+WARN  04-12 15:00:45,875 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_430870 is truncated to 10 characters.
+WARN  04-12 15:00:45,884 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_434837 is truncated to 10 characters.
+WARN  04-12 15:00:45,893 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_495802 is truncated to 10 characters.
+WARN  04-12 15:00:45,901 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_516444 is truncated to 10 characters.
+WARN  04-12 15:00:45,910 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_494739 is truncated to 10 characters.
+WARN  04-12 15:00:45,919 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_463622 is truncated to 10 characters.
+WARN  04-12 15:00:45,927 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_452158 is truncated to 10 characters.
+WARN  04-12 15:00:45,936 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_484880 is truncated to 10 characters.
+WARN  04-12 15:00:45,944 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_463362 is truncated to 10 characters.
+WARN  04-12 15:00:45,953 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_452124 is truncated to 10 characters.
+WARN  04-12 15:00:45,962 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_508729 is truncated to 10 characters.
+WARN  04-12 15:00:45,971 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_513735 is truncated to 10 characters.
+WARN  04-12 15:00:45,979 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_513816 is truncated to 10 characters.
+WARN  04-12 15:00:45,999 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_437848 is truncated to 10 characters.
+WARN  04-12 15:00:46,007 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_494732 is truncated to 10 characters.
+WARN  04-12 15:00:46,016 (PhylipWriter.java:write:473)  -Individual label EPI_ISL_527452 is truncated to 10 characters.
+INFO  04-12 15:00:46,035 (ConverterThread.java:run:87)  -translation completed
+INFO  04-12 15:03:13,765 (ConvertAction.java:actionPerformed:65)  -Convert...
+DEBUG 04-12 15:03:13,765 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:03:13,766 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:03:13,766 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+WARN  04-12 15:03:13,766 (PGDSpiderSpidEditor.java:loadSpidFile:158)  -Spid file does not match both selected formats.
+DEBUG 04-12 15:03:22,629 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:03:22,629 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:03:22,629 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+INFO  04-12 15:03:25,871 (ConvertAction.java:actionPerformed:87)  -convert FASTA:100randomout.fasta to NEXUS:test.txt
+DEBUG 04-12 15:03:25,871 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+WARN  04-12 15:03:25,873 (FastaParser.java:parse:184)  -PGDSpider expects aligned FASTA data!
+WARN  04-12 15:03:25,974 (NexusWriter.java:write:320)  -The name of a population is missing (no name attribute). It is now recoded as "pop_1"
+INFO  04-12 15:03:26,047 (ConverterThread.java:run:87)  -translation completed
+DEBUG 04-12 15:03:34,778 (SelectOutputFileAction.java:actionPerformed:52)  -Added file extension: .nex
+INFO  04-12 15:03:36,269 (ConvertAction.java:actionPerformed:65)  -Convert...
+DEBUG 04-12 15:03:36,270 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+INFO  04-12 15:03:36,270 (ConvertAction.java:actionPerformed:87)  -convert FASTA:100randomout.fasta to NEXUS:nexus.nex
+DEBUG 04-12 15:03:36,271 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+WARN  04-12 15:03:36,274 (FastaParser.java:parse:184)  -PGDSpider expects aligned FASTA data!
+WARN  04-12 15:03:36,380 (NexusWriter.java:write:320)  -The name of a population is missing (no name attribute). It is now recoded as "pop_1"
+INFO  04-12 15:03:36,438 (ConverterThread.java:run:87)  -translation completed
+INFO  04-12 15:07:55,519 (ConvertAction.java:actionPerformed:65)  -Convert...
+DEBUG 04-12 15:07:55,520 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+INFO  04-12 15:07:55,520 (ConvertAction.java:actionPerformed:87)  -convert FASTA:USout.fasta to NEXUS:nexus.nex
+DEBUG 04-12 15:07:55,520 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+WARN  04-12 15:07:55,523 (FastaParser.java:parse:184)  -PGDSpider expects aligned FASTA data!
+WARN  04-12 15:08:03,492 (NexusWriter.java:write:320)  -The name of a population is missing (no name attribute). It is now recoded as "pop_1"
+DEBUG 04-12 15:08:04,017 (NexusWriter.java:write:713)  -Java heap space
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Unknown Source)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(Unknown Source)
+	at java.lang.AbstractStringBuilder.append(Unknown Source)
+	at java.lang.StringBuilder.append(Unknown Source)
+	at ch.unibe.iee.cmpg.pgdspider.model.writer.NexusWriter.write(NexusWriter.java:426)
+	at ch.unibe.iee.cmpg.pgdspider.gui.tasks.ConverterThread.run(ConverterThread.java:85)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 04-12 15:08:04,018 (NexusWriter.java:write:714)  -not enough memory. To increase the allowed memory see help.
+INFO  04-12 15:08:04,019 (ConverterThread.java:run:87)  -translation completed
+DEBUG 04-12 15:08:13,317 (ConfigurationWindow.java:<init>:53)  -Open options window.
+DEBUG 04-12 15:08:30,489 (FileViewer.java:showFile:98)  -Read file into buffer
+DEBUG 04-12 15:08:30,490 (FileViewer.java:showFile:101)  -Read successfully 26444 bytes.
+DEBUG 04-12 15:08:30,490 (FileViewer.java:showFile:103)  -Created text buffer
+DEBUG 04-12 15:09:28,057 (PGDSpiderGUI.java:<init>:121)  -starting PGD Spider ...
+INFO  04-12 15:09:28,058 (PGDSpiderConfig.java:loadConfig:64)  -load PGDSpider configuration from: C:\Users\jonfe.LAPTOP-IH5A88IG\Downloads\PGDSpider_2.1.1.5\spider.conf.xml
+DEBUG 04-12 15:09:28,435 (PGDSpiderGUI.java:initializeGUI:220)  -init actions
+DEBUG 04-12 15:09:28,435 (PGDSpiderGUI.java:initializeGUI:233)  -init menu bar
+DEBUG 04-12 15:09:28,451 (PGDSpiderGUI.java:initializeGUI:244)  -init input panel
+DEBUG 04-12 15:09:28,453 (ParserFactory.java:getParserInstance:161)  -New PGDParser instance
+DEBUG 04-12 15:09:28,464 (ParserFactory.java:getParserInstance:53)  -New ArlequinParser instance
+DEBUG 04-12 15:09:28,470 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAMOVA is missing!
+DEBUG 04-12 15:09:28,470 (ParserFactory.java:getParserInstance:57)  -New BamParser instance
+DEBUG 04-12 15:09:28,477 (ParserFactory.java:getParserInstance:61)  -New BapsParser instance
+DEBUG 04-12 15:09:28,480 (ParserFactory.java:getParserInstance:65)  -New BatwingParser instance
+DEBUG 04-12 15:09:28,481 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAYENV is missing!
+DEBUG 04-12 15:09:28,481 (ParserFactory.java:getParserInstance:69)  -New BcfParser instance
+DEBUG 04-12 15:09:28,483 (ParserFactory.java:getParserInstance:73)  -New ConvertParser instance
+DEBUG 04-12 15:09:28,484 (ParserFactory.java:getParserInstance:77)  -New EigensoftParser instance
+DEBUG 04-12 15:09:28,485 (ParserFactory.java:getParserInstance:181)  -New ExtendedFastaParser instance
+DEBUG 04-12 15:09:28,488 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:09:28,489 (ParserFactory.java:getParserInstance:85)  -New FastqParser instance
+DEBUG 04-12 15:09:28,490 (ParserFactory.java:getParserInstance:185)  -Parser for type: FDist2 (datacal) is missing!
+DEBUG 04-12 15:09:28,490 (ParserFactory.java:getParserInstance:89)  -New FstatParser instance
+DEBUG 04-12 15:09:28,491 (ParserFactory.java:getParserInstance:93)  -New GdaParser instance
+DEBUG 04-12 15:09:28,492 (ParserFactory.java:getParserInstance:97)  -New GenelandParser instance
+DEBUG 04-12 15:09:28,494 (ParserFactory.java:getParserInstance:101)  -New GenepopParser instance
+DEBUG 04-12 15:09:28,495 (ParserFactory.java:getParserInstance:105)  -New GenetixParser instance
+DEBUG 04-12 15:09:28,496 (ParserFactory.java:getParserInstance:185)  -Parser for type: GESTE / BayeScan is missing!
+DEBUG 04-12 15:09:28,496 (ParserFactory.java:getParserInstance:109)  -New HgdpParser instance
+DEBUG 04-12 15:09:28,497 (ParserFactory.java:getParserInstance:113)  -New HgdpCephParser instance
+DEBUG 04-12 15:09:28,498 (ParserFactory.java:getParserInstance:117)  -New Ima2Parser instance
+DEBUG 04-12 15:09:28,500 (ParserFactory.java:getParserInstance:121)  -New ImmancParser instance
+DEBUG 04-12 15:09:28,501 (ParserFactory.java:getParserInstance:125)  -New ImParser instance
+DEBUG 04-12 15:09:28,503 (ParserFactory.java:getParserInstance:185)  -Parser for type: KML is missing!
+DEBUG 04-12 15:09:28,503 (ParserFactory.java:getParserInstance:129)  -New MafParser instance
+DEBUG 04-12 15:09:28,503 (ParserFactory.java:getParserInstance:133)  -New MegaParser instance
+DEBUG 04-12 15:09:28,508 (ParserFactory.java:getParserInstance:137)  -New MigrateParser instance
+DEBUG 04-12 15:09:28,509 (ParserFactory.java:getParserInstance:141)  -New MsaParser instance
+DEBUG 04-12 15:09:28,510 (ParserFactory.java:getParserInstance:185)  -Parser for type: MSVar is missing!
+DEBUG 04-12 15:09:28,510 (ParserFactory.java:getParserInstance:145)  -New NewHybridsParser instance
+DEBUG 04-12 15:09:28,513 (ParserFactory.java:getParserInstance:149)  -New NexusParser instance
+DEBUG 04-12 15:09:28,515 (ParserFactory.java:getParserInstance:153)  -New OneSampParser instance
+DEBUG 04-12 15:09:28,516 (ParserFactory.java:getParserInstance:157)  -New PedParser instance
+DEBUG 04-12 15:09:28,517 (ParserFactory.java:getParserInstance:165)  -New PhylipParser instance
+DEBUG 04-12 15:09:28,519 (ParserFactory.java:getParserInstance:169)  -New SamParser instance
+DEBUG 04-12 15:09:28,520 (ParserFactory.java:getParserInstance:185)  -Parser for type: Structurama is missing!
+DEBUG 04-12 15:09:28,520 (ParserFactory.java:getParserInstance:173)  -New StructureParser instance
+DEBUG 04-12 15:09:28,522 (ParserFactory.java:getParserInstance:177)  -New VcfParser instance
+DEBUG 04-12 15:09:28,530 (PGDSpiderGUI.java:initializeGUI:247)  -init output panel
+DEBUG 04-12 15:09:28,546 (WriterFactory.java:getWriterInstance:171)  -Writer for type: CONVERT is missing!
+DEBUG 04-12 15:09:28,559 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP is missing!
+DEBUG 04-12 15:09:28,559 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP_CEPH (Arlequin) is missing!
+DEBUG 04-12 15:09:28,566 (WriterFactory.java:getWriterInstance:171)  -Writer for type: MAF is missing!
+DEBUG 04-12 15:09:28,588 (PGDSpiderGUI.java:initializeGUI:250)  -init spid panel
+DEBUG 04-12 15:09:28,589 (PGDSpiderGUI.java:initializeGUI:253)  -init log panel
+DEBUG 04-12 15:09:28,590 (PGDSpiderGUI.java:initializeGUI:256)  -init button panel
+DEBUG 04-12 15:09:30,542 (PGDSpiderGUI.java:<init>:187)  -PGD Spider up and running...
+DEBUG 04-12 15:09:30,542 (PGDSpiderGUI.java:closePGDSpider:526)  -Exiting PGDSpider
+DEBUG 04-12 15:09:30,542 (PGDSpiderGUI.java:closePGDSpider:527)  -Save window size
+DEBUG 04-12 15:09:30,595 (PGDSpiderGUI.java:closePGDSpider:531)  -Shutdown java vm ...
+DEBUG 04-12 15:09:32,123 (FileViewer.java:windowClosing:86)  -Closing file viewer.
+DEBUG 04-12 15:09:32,133 (FileViewer.java:windowClosing:88)  -Calling gc to free memory.
+DEBUG 04-12 15:09:33,064 (PGDSpiderGUI.java:closePGDSpider:526)  -Exiting PGDSpider
+DEBUG 04-12 15:09:33,065 (PGDSpiderGUI.java:closePGDSpider:527)  -Save window size
+DEBUG 04-12 15:09:33,111 (PGDSpiderGUI.java:closePGDSpider:531)  -Shutdown java vm ...
+DEBUG 04-12 15:10:34,463 (PGDSpiderGUI.java:<init>:121)  -starting PGD Spider ...
+INFO  04-12 15:10:34,465 (PGDSpiderConfig.java:loadConfig:64)  -load PGDSpider configuration from: C:\Users\jonfe.LAPTOP-IH5A88IG\Downloads\PGDSpider_2.1.1.5\spider.conf.xml
+DEBUG 04-12 15:10:34,786 (PGDSpiderGUI.java:initializeGUI:220)  -init actions
+DEBUG 04-12 15:10:34,786 (PGDSpiderGUI.java:initializeGUI:233)  -init menu bar
+DEBUG 04-12 15:10:34,799 (PGDSpiderGUI.java:initializeGUI:244)  -init input panel
+DEBUG 04-12 15:10:34,801 (ParserFactory.java:getParserInstance:161)  -New PGDParser instance
+DEBUG 04-12 15:10:34,812 (ParserFactory.java:getParserInstance:53)  -New ArlequinParser instance
+DEBUG 04-12 15:10:34,817 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAMOVA is missing!
+DEBUG 04-12 15:10:34,817 (ParserFactory.java:getParserInstance:57)  -New BamParser instance
+DEBUG 04-12 15:10:34,824 (ParserFactory.java:getParserInstance:61)  -New BapsParser instance
+DEBUG 04-12 15:10:34,827 (ParserFactory.java:getParserInstance:65)  -New BatwingParser instance
+DEBUG 04-12 15:10:34,828 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAYENV is missing!
+DEBUG 04-12 15:10:34,828 (ParserFactory.java:getParserInstance:69)  -New BcfParser instance
+DEBUG 04-12 15:10:34,830 (ParserFactory.java:getParserInstance:73)  -New ConvertParser instance
+DEBUG 04-12 15:10:34,831 (ParserFactory.java:getParserInstance:77)  -New EigensoftParser instance
+DEBUG 04-12 15:10:34,833 (ParserFactory.java:getParserInstance:181)  -New ExtendedFastaParser instance
+DEBUG 04-12 15:10:34,835 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:10:34,835 (ParserFactory.java:getParserInstance:85)  -New FastqParser instance
+DEBUG 04-12 15:10:34,836 (ParserFactory.java:getParserInstance:185)  -Parser for type: FDist2 (datacal) is missing!
+DEBUG 04-12 15:10:34,836 (ParserFactory.java:getParserInstance:89)  -New FstatParser instance
+DEBUG 04-12 15:10:34,837 (ParserFactory.java:getParserInstance:93)  -New GdaParser instance
+DEBUG 04-12 15:10:34,839 (ParserFactory.java:getParserInstance:97)  -New GenelandParser instance
+DEBUG 04-12 15:10:34,840 (ParserFactory.java:getParserInstance:101)  -New GenepopParser instance
+DEBUG 04-12 15:10:34,842 (ParserFactory.java:getParserInstance:105)  -New GenetixParser instance
+DEBUG 04-12 15:10:34,843 (ParserFactory.java:getParserInstance:185)  -Parser for type: GESTE / BayeScan is missing!
+DEBUG 04-12 15:10:34,843 (ParserFactory.java:getParserInstance:109)  -New HgdpParser instance
+DEBUG 04-12 15:10:34,844 (ParserFactory.java:getParserInstance:113)  -New HgdpCephParser instance
+DEBUG 04-12 15:10:34,845 (ParserFactory.java:getParserInstance:117)  -New Ima2Parser instance
+DEBUG 04-12 15:10:34,846 (ParserFactory.java:getParserInstance:121)  -New ImmancParser instance
+DEBUG 04-12 15:10:34,847 (ParserFactory.java:getParserInstance:125)  -New ImParser instance
+DEBUG 04-12 15:10:34,849 (ParserFactory.java:getParserInstance:185)  -Parser for type: KML is missing!
+DEBUG 04-12 15:10:34,849 (ParserFactory.java:getParserInstance:129)  -New MafParser instance
+DEBUG 04-12 15:10:34,850 (ParserFactory.java:getParserInstance:133)  -New MegaParser instance
+DEBUG 04-12 15:10:34,854 (ParserFactory.java:getParserInstance:137)  -New MigrateParser instance
+DEBUG 04-12 15:10:34,856 (ParserFactory.java:getParserInstance:141)  -New MsaParser instance
+DEBUG 04-12 15:10:34,857 (ParserFactory.java:getParserInstance:185)  -Parser for type: MSVar is missing!
+DEBUG 04-12 15:10:34,857 (ParserFactory.java:getParserInstance:145)  -New NewHybridsParser instance
+DEBUG 04-12 15:10:34,859 (ParserFactory.java:getParserInstance:149)  -New NexusParser instance
+DEBUG 04-12 15:10:34,861 (ParserFactory.java:getParserInstance:153)  -New OneSampParser instance
+DEBUG 04-12 15:10:34,862 (ParserFactory.java:getParserInstance:157)  -New PedParser instance
+DEBUG 04-12 15:10:34,864 (ParserFactory.java:getParserInstance:165)  -New PhylipParser instance
+DEBUG 04-12 15:10:34,865 (ParserFactory.java:getParserInstance:169)  -New SamParser instance
+DEBUG 04-12 15:10:34,867 (ParserFactory.java:getParserInstance:185)  -Parser for type: Structurama is missing!
+DEBUG 04-12 15:10:34,867 (ParserFactory.java:getParserInstance:173)  -New StructureParser instance
+DEBUG 04-12 15:10:34,869 (ParserFactory.java:getParserInstance:177)  -New VcfParser instance
+DEBUG 04-12 15:10:34,876 (PGDSpiderGUI.java:initializeGUI:247)  -init output panel
+DEBUG 04-12 15:10:34,897 (WriterFactory.java:getWriterInstance:171)  -Writer for type: CONVERT is missing!
+DEBUG 04-12 15:10:34,913 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP is missing!
+DEBUG 04-12 15:10:34,913 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP_CEPH (Arlequin) is missing!
+DEBUG 04-12 15:10:34,921 (WriterFactory.java:getWriterInstance:171)  -Writer for type: MAF is missing!
+DEBUG 04-12 15:10:34,945 (PGDSpiderGUI.java:initializeGUI:250)  -init spid panel
+DEBUG 04-12 15:10:34,946 (PGDSpiderGUI.java:initializeGUI:253)  -init log panel
+DEBUG 04-12 15:10:34,947 (PGDSpiderGUI.java:initializeGUI:256)  -init button panel
+DEBUG 04-12 15:10:36,894 (PGDSpiderGUI.java:<init>:187)  -PGD Spider up and running...
+DEBUG 04-12 15:11:18,817 (SelectOutputFileAction.java:actionPerformed:52)  -Added file extension: .nex
+INFO  04-12 15:11:21,544 (ConvertAction.java:actionPerformed:65)  -Convert...
+DEBUG 04-12 15:11:21,553 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:11:21,554 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:11:21,559 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:11:21,560 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:11:21,560 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 04-12 15:11:21,560 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+INFO  04-12 15:11:25,128 (ConvertAction.java:actionPerformed:87)  -convert FASTA:USout.fasta to NEXUS:nexus.nex
+DEBUG 04-12 15:11:25,135 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+WARN  04-12 15:11:25,184 (FastaParser.java:parse:184)  -PGDSpider expects aligned FASTA data!
+WARN  04-12 15:11:31,855 (NexusWriter.java:write:320)  -The name of a population is missing (no name attribute). It is now recoded as "pop_1"
+INFO  04-12 15:11:42,435 (ConverterThread.java:run:87)  -translation completed
+DEBUG 04-12 15:12:27,424 (PGDSpiderGUI.java:closePGDSpider:526)  -Exiting PGDSpider
+DEBUG 04-12 15:12:27,425 (PGDSpiderGUI.java:closePGDSpider:527)  -Save window size
+DEBUG 04-12 15:12:27,469 (PGDSpiderGUI.java:closePGDSpider:531)  -Shutdown java vm ...
+DEBUG 10-12 21:32:56,443 (PGDSpiderGUI.java:<init>:121)  -starting PGD Spider ...
+INFO  10-12 21:32:56,446 (PGDSpiderConfig.java:loadConfig:64)  -load PGDSpider configuration from: C:\Users\jonfe.LAPTOP-IH5A88IG\Desktop\PGDSpider_2.1.1.5\spider.conf.xml
+DEBUG 10-12 21:32:57,227 (PGDSpiderGUI.java:initializeGUI:220)  -init actions
+DEBUG 10-12 21:32:57,228 (PGDSpiderGUI.java:initializeGUI:233)  -init menu bar
+DEBUG 10-12 21:32:57,265 (PGDSpiderGUI.java:initializeGUI:244)  -init input panel
+DEBUG 10-12 21:32:57,268 (ParserFactory.java:getParserInstance:161)  -New PGDParser instance
+DEBUG 10-12 21:32:57,297 (ParserFactory.java:getParserInstance:53)  -New ArlequinParser instance
+DEBUG 10-12 21:32:57,316 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAMOVA is missing!
+DEBUG 10-12 21:32:57,317 (ParserFactory.java:getParserInstance:57)  -New BamParser instance
+DEBUG 10-12 21:32:57,336 (ParserFactory.java:getParserInstance:61)  -New BapsParser instance
+DEBUG 10-12 21:32:57,347 (ParserFactory.java:getParserInstance:65)  -New BatwingParser instance
+DEBUG 10-12 21:32:57,351 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAYENV is missing!
+DEBUG 10-12 21:32:57,352 (ParserFactory.java:getParserInstance:69)  -New BcfParser instance
+DEBUG 10-12 21:32:57,360 (ParserFactory.java:getParserInstance:73)  -New ConvertParser instance
+DEBUG 10-12 21:32:57,364 (ParserFactory.java:getParserInstance:77)  -New EigensoftParser instance
+DEBUG 10-12 21:32:57,367 (ParserFactory.java:getParserInstance:181)  -New ExtendedFastaParser instance
+DEBUG 10-12 21:32:57,373 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 10-12 21:32:57,375 (ParserFactory.java:getParserInstance:85)  -New FastqParser instance
+DEBUG 10-12 21:32:57,376 (ParserFactory.java:getParserInstance:185)  -Parser for type: FDist2 (datacal) is missing!
+DEBUG 10-12 21:32:57,377 (ParserFactory.java:getParserInstance:89)  -New FstatParser instance
+DEBUG 10-12 21:32:57,380 (ParserFactory.java:getParserInstance:93)  -New GdaParser instance
+DEBUG 10-12 21:32:57,383 (ParserFactory.java:getParserInstance:97)  -New GenelandParser instance
+DEBUG 10-12 21:32:57,387 (ParserFactory.java:getParserInstance:101)  -New GenepopParser instance
+DEBUG 10-12 21:32:57,393 (ParserFactory.java:getParserInstance:105)  -New GenetixParser instance
+DEBUG 10-12 21:32:57,397 (ParserFactory.java:getParserInstance:185)  -Parser for type: GESTE / BayeScan is missing!
+DEBUG 10-12 21:32:57,397 (ParserFactory.java:getParserInstance:109)  -New HgdpParser instance
+DEBUG 10-12 21:32:57,400 (ParserFactory.java:getParserInstance:113)  -New HgdpCephParser instance
+DEBUG 10-12 21:32:57,402 (ParserFactory.java:getParserInstance:117)  -New Ima2Parser instance
+DEBUG 10-12 21:32:57,405 (ParserFactory.java:getParserInstance:121)  -New ImmancParser instance
+DEBUG 10-12 21:32:57,407 (ParserFactory.java:getParserInstance:125)  -New ImParser instance
+DEBUG 10-12 21:32:57,411 (ParserFactory.java:getParserInstance:185)  -Parser for type: KML is missing!
+DEBUG 10-12 21:32:57,411 (ParserFactory.java:getParserInstance:129)  -New MafParser instance
+DEBUG 10-12 21:32:57,413 (ParserFactory.java:getParserInstance:133)  -New MegaParser instance
+DEBUG 10-12 21:32:57,420 (ParserFactory.java:getParserInstance:137)  -New MigrateParser instance
+DEBUG 10-12 21:32:57,424 (ParserFactory.java:getParserInstance:141)  -New MsaParser instance
+DEBUG 10-12 21:32:57,426 (ParserFactory.java:getParserInstance:185)  -Parser for type: MSVar is missing!
+DEBUG 10-12 21:32:57,426 (ParserFactory.java:getParserInstance:145)  -New NewHybridsParser instance
+DEBUG 10-12 21:32:57,431 (ParserFactory.java:getParserInstance:149)  -New NexusParser instance
+DEBUG 10-12 21:32:57,435 (ParserFactory.java:getParserInstance:153)  -New OneSampParser instance
+DEBUG 10-12 21:32:57,438 (ParserFactory.java:getParserInstance:157)  -New PedParser instance
+DEBUG 10-12 21:32:57,440 (ParserFactory.java:getParserInstance:165)  -New PhylipParser instance
+DEBUG 10-12 21:32:57,443 (ParserFactory.java:getParserInstance:169)  -New SamParser instance
+DEBUG 10-12 21:32:57,447 (ParserFactory.java:getParserInstance:185)  -Parser for type: Structurama is missing!
+DEBUG 10-12 21:32:57,447 (ParserFactory.java:getParserInstance:173)  -New StructureParser instance
+DEBUG 10-12 21:32:57,451 (ParserFactory.java:getParserInstance:177)  -New VcfParser instance
+DEBUG 10-12 21:32:57,469 (PGDSpiderGUI.java:initializeGUI:247)  -init output panel
+DEBUG 10-12 21:32:57,502 (WriterFactory.java:getWriterInstance:171)  -Writer for type: CONVERT is missing!
+DEBUG 10-12 21:32:57,537 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP is missing!
+DEBUG 10-12 21:32:57,538 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP_CEPH (Arlequin) is missing!
+DEBUG 10-12 21:32:57,557 (WriterFactory.java:getWriterInstance:171)  -Writer for type: MAF is missing!
+DEBUG 10-12 21:32:57,603 (PGDSpiderGUI.java:initializeGUI:250)  -init spid panel
+DEBUG 10-12 21:32:57,606 (PGDSpiderGUI.java:initializeGUI:253)  -init log panel
+DEBUG 10-12 21:32:57,608 (PGDSpiderGUI.java:initializeGUI:256)  -init button panel
+DEBUG 10-12 21:32:59,322 (PGDSpiderGUI.java:<init>:187)  -PGD Spider up and running...
+DEBUG 10-12 21:33:13,498 (PGDSpiderGUI.java:<init>:121)  -starting PGD Spider ...
+INFO  10-12 21:33:13,501 (PGDSpiderConfig.java:loadConfig:64)  -load PGDSpider configuration from: C:\Users\jonfe.LAPTOP-IH5A88IG\Desktop\PGDSpider_2.1.1.5\spider.conf.xml
+DEBUG 10-12 21:33:13,970 (PGDSpiderGUI.java:initializeGUI:220)  -init actions
+DEBUG 10-12 21:33:13,970 (PGDSpiderGUI.java:initializeGUI:233)  -init menu bar
+DEBUG 10-12 21:33:13,996 (PGDSpiderGUI.java:initializeGUI:244)  -init input panel
+DEBUG 10-12 21:33:13,998 (ParserFactory.java:getParserInstance:161)  -New PGDParser instance
+DEBUG 10-12 21:33:14,012 (ParserFactory.java:getParserInstance:53)  -New ArlequinParser instance
+DEBUG 10-12 21:33:14,019 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAMOVA is missing!
+DEBUG 10-12 21:33:14,019 (ParserFactory.java:getParserInstance:57)  -New BamParser instance
+DEBUG 10-12 21:33:14,029 (ParserFactory.java:getParserInstance:61)  -New BapsParser instance
+DEBUG 10-12 21:33:14,033 (ParserFactory.java:getParserInstance:65)  -New BatwingParser instance
+DEBUG 10-12 21:33:14,035 (ParserFactory.java:getParserInstance:185)  -Parser for type: BAYENV is missing!
+DEBUG 10-12 21:33:14,035 (ParserFactory.java:getParserInstance:69)  -New BcfParser instance
+DEBUG 10-12 21:33:14,037 (ParserFactory.java:getParserInstance:73)  -New ConvertParser instance
+DEBUG 10-12 21:33:14,039 (ParserFactory.java:getParserInstance:77)  -New EigensoftParser instance
+DEBUG 10-12 21:33:14,041 (ParserFactory.java:getParserInstance:181)  -New ExtendedFastaParser instance
+DEBUG 10-12 21:33:14,045 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 10-12 21:33:14,046 (ParserFactory.java:getParserInstance:85)  -New FastqParser instance
+DEBUG 10-12 21:33:14,048 (ParserFactory.java:getParserInstance:185)  -Parser for type: FDist2 (datacal) is missing!
+DEBUG 10-12 21:33:14,048 (ParserFactory.java:getParserInstance:89)  -New FstatParser instance
+DEBUG 10-12 21:33:14,050 (ParserFactory.java:getParserInstance:93)  -New GdaParser instance
+DEBUG 10-12 21:33:14,052 (ParserFactory.java:getParserInstance:97)  -New GenelandParser instance
+DEBUG 10-12 21:33:14,054 (ParserFactory.java:getParserInstance:101)  -New GenepopParser instance
+DEBUG 10-12 21:33:14,056 (ParserFactory.java:getParserInstance:105)  -New GenetixParser instance
+DEBUG 10-12 21:33:14,058 (ParserFactory.java:getParserInstance:185)  -Parser for type: GESTE / BayeScan is missing!
+DEBUG 10-12 21:33:14,058 (ParserFactory.java:getParserInstance:109)  -New HgdpParser instance
+DEBUG 10-12 21:33:14,059 (ParserFactory.java:getParserInstance:113)  -New HgdpCephParser instance
+DEBUG 10-12 21:33:14,060 (ParserFactory.java:getParserInstance:117)  -New Ima2Parser instance
+DEBUG 10-12 21:33:14,063 (ParserFactory.java:getParserInstance:121)  -New ImmancParser instance
+DEBUG 10-12 21:33:14,064 (ParserFactory.java:getParserInstance:125)  -New ImParser instance
+DEBUG 10-12 21:33:14,066 (ParserFactory.java:getParserInstance:185)  -Parser for type: KML is missing!
+DEBUG 10-12 21:33:14,066 (ParserFactory.java:getParserInstance:129)  -New MafParser instance
+DEBUG 10-12 21:33:14,068 (ParserFactory.java:getParserInstance:133)  -New MegaParser instance
+DEBUG 10-12 21:33:14,075 (ParserFactory.java:getParserInstance:137)  -New MigrateParser instance
+DEBUG 10-12 21:33:14,077 (ParserFactory.java:getParserInstance:141)  -New MsaParser instance
+DEBUG 10-12 21:33:14,079 (ParserFactory.java:getParserInstance:185)  -Parser for type: MSVar is missing!
+DEBUG 10-12 21:33:14,079 (ParserFactory.java:getParserInstance:145)  -New NewHybridsParser instance
+DEBUG 10-12 21:33:14,082 (ParserFactory.java:getParserInstance:149)  -New NexusParser instance
+DEBUG 10-12 21:33:14,085 (ParserFactory.java:getParserInstance:153)  -New OneSampParser instance
+DEBUG 10-12 21:33:14,086 (ParserFactory.java:getParserInstance:157)  -New PedParser instance
+DEBUG 10-12 21:33:14,088 (ParserFactory.java:getParserInstance:165)  -New PhylipParser instance
+DEBUG 10-12 21:33:14,092 (ParserFactory.java:getParserInstance:169)  -New SamParser instance
+DEBUG 10-12 21:33:14,095 (ParserFactory.java:getParserInstance:185)  -Parser for type: Structurama is missing!
+DEBUG 10-12 21:33:14,095 (ParserFactory.java:getParserInstance:173)  -New StructureParser instance
+DEBUG 10-12 21:33:14,101 (ParserFactory.java:getParserInstance:177)  -New VcfParser instance
+DEBUG 10-12 21:33:14,114 (PGDSpiderGUI.java:initializeGUI:247)  -init output panel
+DEBUG 10-12 21:33:14,138 (WriterFactory.java:getWriterInstance:171)  -Writer for type: CONVERT is missing!
+DEBUG 10-12 21:33:14,152 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP is missing!
+DEBUG 10-12 21:33:14,153 (WriterFactory.java:getWriterInstance:171)  -Writer for type: HGDP_CEPH (Arlequin) is missing!
+DEBUG 10-12 21:33:14,163 (WriterFactory.java:getWriterInstance:171)  -Writer for type: MAF is missing!
+DEBUG 10-12 21:33:14,193 (PGDSpiderGUI.java:initializeGUI:250)  -init spid panel
+DEBUG 10-12 21:33:14,195 (PGDSpiderGUI.java:initializeGUI:253)  -init log panel
+DEBUG 10-12 21:33:14,196 (PGDSpiderGUI.java:initializeGUI:256)  -init button panel
+DEBUG 10-12 21:33:16,186 (PGDSpiderGUI.java:<init>:187)  -PGD Spider up and running...
+DEBUG 10-12 21:34:00,452 (SelectOutputFileAction.java:actionPerformed:52)  -Added file extension: .nex
+INFO  10-12 21:34:01,854 (ConvertAction.java:actionPerformed:65)  -Convert...
+DEBUG 10-12 21:34:01,868 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 10-12 21:34:01,868 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 10-12 21:34:01,874 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 10-12 21:34:01,875 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 10-12 21:34:01,875 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+DEBUG 10-12 21:34:01,875 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+INFO  10-12 21:34:04,527 (ConvertAction.java:actionPerformed:87)  -convert FASTA:100randomout.fasta to NEXUS:file.nex
+DEBUG 10-12 21:34:04,542 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+WARN  10-12 21:34:04,594 (FastaParser.java:parse:184)  -PGDSpider expects aligned FASTA data!
+WARN  10-12 21:34:04,801 (NexusWriter.java:write:320)  -The name of a population is missing (no name attribute). It is now recoded as "pop_1"
+INFO  10-12 21:34:04,923 (ConverterThread.java:run:87)  -translation completed
+INFO  10-12 21:34:07,349 (ConvertAction.java:actionPerformed:65)  -Convert...
+INFO  10-12 21:34:09,900 (ConvertAction.java:actionPerformed:75)  -Overwrite existing output file
+DEBUG 10-12 21:34:09,901 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+INFO  10-12 21:34:09,901 (ConvertAction.java:actionPerformed:87)  -convert FASTA:100randomout.fasta to NEXUS:file.nex
+DEBUG 10-12 21:34:09,901 (ParserFactory.java:getParserInstance:81)  -New FastaParser instance
+WARN  10-12 21:34:09,903 (FastaParser.java:parse:184)  -PGDSpider expects aligned FASTA data!
+WARN  10-12 21:34:10,016 (NexusWriter.java:write:320)  -The name of a population is missing (no name attribute). It is now recoded as "pop_1"
+INFO  10-12 21:34:10,084 (ConverterThread.java:run:87)  -translation completed
+DEBUG 10-12 21:34:11,534 (PGDSpiderGUI.java:closePGDSpider:526)  -Exiting PGDSpider
+DEBUG 10-12 21:34:11,535 (PGDSpiderGUI.java:closePGDSpider:527)  -Save window size
+DEBUG 10-12 21:34:11,616 (PGDSpiderGUI.java:closePGDSpider:531)  -Shutdown java vm ...
